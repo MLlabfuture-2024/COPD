@@ -7,7 +7,7 @@ import joblib
 
 
 def main():
-    st.title("Disease Prediction Calculator")
+    st.title("COPD Prediction Calculator")
 
     # Define categorical and numerical features
     cat_features = ['Gender', 'Race', 'Education', 'Smoke', 'Alcohol']
@@ -109,7 +109,7 @@ def main():
             col1, col2 = st.columns(2)
 
             with col1:
-                st.write("**Prediction Result:**", 'Disease' if prediction[0] == 1 else 'Healthy')
+                st.write("**Prediction Result:**", 'COPD' if prediction[0] == 1 else 'Healthy')
                 st.write("**Risk Level:**", risk_level)
 
             with col2:
