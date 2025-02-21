@@ -1,9 +1,9 @@
-name: copd-app  # 你可以自定义环境名称
+name: copd-app 
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python==3.9.19  # 根据你的应用调整 Python 版本
+  - python==3.9.19  
   - streamlit == 1.42.2 
   - pandas ==  2.2.3
   - numpy ==  1.26.4
