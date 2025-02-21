@@ -1,14 +1,14 @@
-name: dl  # 你的环境名称
+name: copd-app  # 你可以自定义环境名称
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9  # 根据你的需要修改 Python 版本
-  - streamlit
-  - pandas
-  - numpy
-  - scikit-learn
-  - catboost
-  - joblib
-  - matplotlib  # 如果你的 app.py 中使用了 matplotlib 进行绘图，则保留
-  - statsmodels # 如果你的app.py中使用了, 则保留
+  - python==3.9.19  # 根据你的应用调整 Python 版本
+  - streamlit == 1.42.2 
+  - pandas ==  2.2.3
+  - numpy ==  1.26.4
+  - scikit-learn ==   1.5.2
+  - catboost == 1.2.7 
+  - joblib == 1.4.2  
+  - matplotlib ==3.9.0 
+  - statsmodels ==  0.14.4    
