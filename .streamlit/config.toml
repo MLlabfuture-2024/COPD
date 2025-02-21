@@ -1,8 +1,0 @@
-[server]
-enableXsrfProtection = false
-
-[runner]
-fastReruns = false
-
-[browser]
-gatherUsageStats = false
